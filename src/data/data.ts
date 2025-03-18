@@ -28,6 +28,7 @@ import {
   SiVite,
   SiPostgresql,
   SiPuppeteer,
+  SiReactquery,
 } from "react-icons/si";
 
 import { VscVscode } from "react-icons/vsc";
@@ -118,15 +119,15 @@ const Data = {
       iconLists: [SiNextdotjs, SiReact, SiTailwindcss, SiTypescript, SiNodedotjs],
     },
     {
-      title: "WooCommerce Site",
+      title: "NextJS Ecommerce",
       href: "https://jannatbabyfood.com",
-      image: "/woocommerce.png",
+      image: "/next-ecom.png",
       description:
-        "A WordPress-powered Baby-Food store enabling custom quantity orders with cash-on-delivery, Bkash, and Nagad payment options",
+        "A NextJS Powered Ecommerce, Baby-Food store enabling custom quantity orders with cash-on-delivery, Bkash, and Nagad payment options",
       dates: "July 2022",
       link: "https://jannatbabyfood.com",
       links: [{ type: "preview", href: "https://jannatbabyfood.com" }],
-      iconLists: [SiWoo, SiWordpress],
+      iconLists: [SiNextdotjs, SiReact, SiReactquery, SiTailwindcss, SiTypescript, SiNodedotjs],
     },
     {
       title: "Order Maker App",

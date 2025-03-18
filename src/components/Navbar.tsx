@@ -51,6 +51,7 @@ export default function Navbar() {
                     )}
                   >
                     {isHome && item.href !== "resume" ? (
+                      // @ts-ignore
                       <ScrollLink
                         to={item.href}
                         smooth={true}
