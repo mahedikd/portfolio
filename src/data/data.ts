@@ -124,7 +124,7 @@ const Data = {
       image: "/next-ecom.png",
       description:
         "A NextJS Powered Ecommerce, Baby-Food store enabling custom quantity orders with cash-on-delivery, Bkash, and Nagad payment options",
-      dates: "July 2022",
+      dates: "March 2025",
       link: "https://jannatbabyfood.com",
       links: [{ type: "preview", href: "https://jannatbabyfood.com" }],
       iconLists: [SiNextdotjs, SiReact, SiReactquery, SiTailwindcss, SiTypescript, SiNodedotjs],
