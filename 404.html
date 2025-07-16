@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>Redirecting...</title>
     <script>
-      const redirectTo = `/#${location.pathname}` 
+      const redirectTo = `/#${location.pathname.split("/")[1]}` 
       window.location.href = redirectTo;
     </script>
   </head>
