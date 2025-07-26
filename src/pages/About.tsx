@@ -7,7 +7,7 @@ export default function AboutPage() {
           "Turning complex problems into elegant solutions through code."
         </div>
         <p className="text-justify leading-relaxed text-gray-700">
-          As a Full-stack Developer with 3+ years of experience, I specialize in crafting
+          As a Full-stack Developer with 2+ years of experience, I specialize in crafting
           exceptional digital experiences using technologies like React, Next.js, TypeScript, and
           Node.js, along with databases like MongoDB and PostgreSQL. My approach combines technical
           expertise with creative problem-solving to deliver scalable and high-performing
