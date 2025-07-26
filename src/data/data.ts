@@ -65,7 +65,7 @@ const Data = {
 		description:
 			"I’m a full-stack developer who creates exceptional digital experiences and transforms complex problems into elegant solutions.",
 		experience: [
-			{ number: "3+", label: "Years of Experience" },
+			{ number: "2+", label: "Years of Experience" },
 			{ number: "20+", label: "Projects Completed" },
 			{ number: "100%", label: "Client Satisfaction" },
 		],
