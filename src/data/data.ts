@@ -55,7 +55,7 @@ const Data = {
 		},
 	},
 	topbar: {
-		mail: "contact@solodevr.com",
+		mail: "itumdev@gmail.com",
 		logo: "/logo.svg",
 	},
 	home: {
