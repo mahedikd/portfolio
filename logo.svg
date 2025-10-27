@@ -1,17 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 929.93 316.35">
   <defs>
     <style>
-      .cls-1 {
+      .cls-1, .cls-2 {
         stroke-width: 0px;
       }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+        opacity: .81;
+      }
+
+      .cls-3 {
+        font-family: LobsterTwo-Bold, 'Lobster Two';
+        font-size: 280.95px;
+        font-weight: 700;
+      }
     </style>
+    <linearGradient id="linear-gradient" x1="-54.02" y1="291.49" x2="760.7" y2="291.49" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".15" stop-color="#fbfbfb"/>
+      <stop offset=".28" stop-color="#f1f1f1"/>
+      <stop offset=".4" stop-color="#dfdfdf"/>
+      <stop offset=".52" stop-color="#c6c6c6"/>
+      <stop offset=".63" stop-color="#a6a6a6"/>
+      <stop offset=".74" stop-color="#7f7f7f"/>
+      <stop offset=".85" stop-color="#515151"/>
+      <stop offset=".95" stop-color="#1c1c1c"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
   </defs>
-  <circle class="cls-1" cx="399.02" cy="396.17" r="31.84"/>
-  <g>
-    <path class="cls-1" d="M389.89,240.35c-2.67-31.55-13.29-60.83-29.85-85.84-1.63-2.46-5.12-2.79-7.21-.7l-104.62,104.62c-9.62,9.62-23.47,12.38-35.55,8.32-3.06-1.03-6.24,1.19-6.24,4.42v113.6c0,4.18,5.05,6.27,8,3.31l134.36-134.36c9.5-9.5,23.12-12.31,35.09-8.48,3.16,1.01,6.3-1.6,6.02-4.9Z"/>
-    <path class="cls-1" d="M301.82,98.56c-26.54-16.11-57.48-25.71-90.59-26.56-2.64-.07-4.82,2.05-4.82,4.69v114.13c0,4.18,5.05,6.27,8,3.31l88.27-88.26c2.14-2.14,1.73-5.74-.86-7.31Z"/>
-    <path class="cls-1" d="M297.43,416.18c28.77-16.39,52.69-40.31,69.08-69.08,2.7-4.75-3.53-9.5-7.39-5.64l-67.33,67.33c-3.86,3.86.89,10.1,5.64,7.39Z"/>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-3" transform="translate(0 246.11)"><tspan x="0" y="0">Devitum</tspan></text>
+      <g>
+        <path class="cls-2" d="M59,269.12h795.88c10.4,0,18.84,8.44,18.84,18.84v7.06c0,10.4-8.44,18.84-18.84,18.84H59v-44.75h0Z"/>
+        <circle class="cls-1" cx="907.56" cy="291.49" r="22.37"/>
+      </g>
+    </g>
   </g>
-  <rect class="cls-1" x="119.72" y="71.99" width="63.68" height="356.01" rx="5" ry="5"/>
 </svg>
