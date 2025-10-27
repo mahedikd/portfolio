@@ -99,7 +99,7 @@ export default function Home() {
               <div className="relative">
                 <Avatar className="h-40 w-40 border-8 md:h-64 md:w-64">
                   <AvatarImage src="/me.jpg" alt="@shadcn" className="grayscale" />
-                  <AvatarFallback>SDEV</AvatarFallback>
+                  <AvatarFallback>DI</AvatarFallback>
                 </Avatar>
                 <div className="absolute -right-20 top-0 -rotate-[25deg] transform rounded-full bg-white px-2 py-1 text-sm shadow-lg transition-all duration-300 hover:scale-105 md:-right-12 md:p-2">
                   <span className="ml-1">{avatarTitle}</span>

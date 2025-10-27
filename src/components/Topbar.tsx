@@ -25,8 +25,8 @@ export default function TopBar() {
         <Image
           src={logo}
           alt="logo"
-          width={36}
-          height={36}
+          width={80}
+          height={80}
           className="transition-transform duration-300 hover:scale-105"
         />
 
