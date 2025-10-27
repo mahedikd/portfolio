@@ -29,6 +29,7 @@ import {
 	SiPostgresql,
 	SiPuppeteer,
 	SiReactquery,
+	SiGo 
 } from "react-icons/si";
 
 import { VscVscode } from "react-icons/vsc";
@@ -42,14 +43,14 @@ import { BiLogoGithub, BiLogoFacebookCircle, BiUser } from "react-icons/bi";
 const Data = {
 	seo: {
 		index: {
-			title: "SoloDev Portfolio",
-			desc: "Portfolio Home Page",
+			title: "Devitum",
+			desc: "Devitum Home Page",
 			name: "Home",
 			type: "website",
 		},
 		resume: {
-			title: "SoloDev Portfolio",
-			desc: "Portfolio Resume Page",
+			title: "Devitum Portfolio",
+			desc: "Devitum Resume Page",
 			name: "Resume",
 			type: "website",
 		},
@@ -236,6 +237,8 @@ const Data = {
 	techItems: [
 		{ label: "JavaScript", icon: SiJavascript, category: "Technology" },
 		{ label: "TypeScript", icon: SiTypescript, category: "Technology" },
+		{ label: "Go", icon: SiGo , category: "Technology" },
+		{ label: "Python", icon: SiPython, category: "Technology" },
 		{ label: "HTML", icon: SiHtml5, category: "Technology" },
 		{ label: "CSS", icon: SiCss3, category: "Technology" },
 		{ label: "Tailwind", icon: SiTailwindcss, category: "Technology" },
@@ -245,7 +248,6 @@ const Data = {
 		{ label: "Node", icon: SiNodedotjs, category: "Technology" },
 		{ label: "Express", icon: SiExpress, category: "Technology" },
 		{ label: "Prisma", icon: SiPrisma, category: "Technology" },
-		{ label: "Python", icon: SiPython, category: "Technology" },
 		{ label: "Lua", icon: SiLua, category: "Technology" },
 		{ label: "Wordpress", icon: SiWordpress, category: "Technology" },
 		{ label: "WooCommerce", icon: SiWoo, category: "Technology" },
