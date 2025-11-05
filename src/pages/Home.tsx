@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+// import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { useState, useEffect, useCallback } from "react";
 import { BiLogoGithub, BiLogoFacebookCircle } from "react-icons/bi";
 import { IconType } from "react-icons";
@@ -83,7 +83,7 @@ const SocialLink = ({
 );
 
 export default function Home() {
-  const { phrases, avatarTitle, prePhrase, description, experience } = Data.home;
+  const { phrases, prePhrase, description, experience } = Data.home;
   const { title, desc, name, type } = Data.seo.index;
 
   const displayedText = useTypewriter(phrases, 100, 50, 2000);
@@ -95,7 +95,7 @@ export default function Home() {
         <div className="mx-auto max-w-6xl pt-20">
           <div className="grid gap-8 md:grid-cols-2 md:gap-8 lg:gap-16">
             {/* Right Column (Avatar) - Moved up for mobile */}
-            <div className="relative flex items-center justify-center md:order-2">
+            {/* <div className="relative flex items-center justify-center md:order-2">
               <div className="relative">
                 <Avatar className="h-40 w-40 border-8 md:h-64 md:w-64">
                   <AvatarImage src="/me.jpg" alt="@shadcn" className="grayscale" />
@@ -106,7 +106,7 @@ export default function Home() {
                   <span className="animate-wave inline-block origin-[70%_70%]">👋</span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Left Column - Content */}
             <div className="flex flex-col justify-center space-y-8 md:order-1">
